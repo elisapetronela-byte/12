@@ -4,9 +4,9 @@ from matplotlib.patches import Rectangle, FancyBboxPatch
 
 
 FRECVENTE_MHZ = np.concatenate([
-    np.arange(969, 1008 + 1, 3),     # 14 canale
-    np.arange(1053, 1065 + 1, 3),    #  5 canale
-    np.arange(1113, 1206 + 1, 3),    # 32 canale
+    np.arange(969, 1008 + 1, 3),     
+    np.arange(1053, 1065 + 1, 3),    
+    np.arange(1113, 1206 + 1, 3),    
 ]).astype(float)
 NR_CANALE = len(FRECVENTE_MHZ)
 
